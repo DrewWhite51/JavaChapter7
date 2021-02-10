@@ -14,7 +14,7 @@ import java.util.Scanner;
  *
  * @author drewm
  */
-public class Main {
+public class Rainfall {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         double rain[] = new double[12];
