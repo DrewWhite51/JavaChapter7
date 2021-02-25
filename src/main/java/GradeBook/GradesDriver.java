@@ -31,11 +31,7 @@ public class GradesDriver {
                 test[j] = keyboard.nextDouble();
                 keyboard.nextLine();
             }
-
-            
             array[i] = new Student(student[i], test);
-  
-
         }
             for (Student students: array) {
                 System.out.println(students);
